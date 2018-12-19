@@ -3,5 +3,5 @@ def reverse_each_word(words)
   words.split.collect do |word|
     wordArr << word.reverse
   end
-  wordArr
+  wordArr.join()
 end
